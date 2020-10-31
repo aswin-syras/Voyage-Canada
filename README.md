@@ -1,11 +1,15 @@
 ```
  __     __                                  ____                      _       
- \ \   / /__  _   _  __ _  __ _  ___       / ___|__ _ _ __   __ _  __| | __ _ 
+ \ \   / /__  _   _  __ _  __ _  ___       / ___|__ _ _ __   __ _  __| | __ _
   \ \ / / _ \| | | |/ _` |/ _` |/ _ \_____| |   / _` | '_ \ / _` |/ _` |/ _` |
    \ V / (_) | |_| | (_| | (_| |  __/_____| |__| (_| | | | | (_| | (_| | (_| |
     \_/ \___/ \__, |\__,_|\__, |\___|      \____\__,_|_| |_|\__,_|\__,_|\__,_|
               |___/       |___/    
 ```
+
+![](https://img.shields.io/badge/CSAT-2020F-green)
+![](https://img.shields.io/badge/CSD-1113__8-blue)
+![](https://img.shields.io/badge/WEB%20TECHNOLOGIES-Group%201-orange)
 
 
 ## :one: – Planning Checklist
@@ -16,7 +20,7 @@
 > We aim to use this website to promote our products.
 
 2. Who is the Target Audience?
-> Target Audience include travellers who want to find travelling destinations in Canada, 
+> Target Audience include travellers who want to find travelling destinations in Canada,
 > also anyone online who wants to use digital travel guides to know more about Canada.
 
 3. How many pages will be included in your website?
@@ -40,7 +44,7 @@
 
 
 ## :two: – Content
- 
+
 * Home page
   * provide a brief overview of the business
 * Contact Us

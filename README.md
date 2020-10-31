@@ -8,7 +8,7 @@
 ```
 
 
-##Section :one: – Planning Checklist
+## Section :one: – Planning Checklist
 
 1. What is the Purpose of the Website?
 2. Who is the Target Audience?
@@ -19,7 +19,7 @@
 7. What features will be displayed on the webpages?
 
 
-##Section :two: – Content Requirements
+## Section :two: – Content Requirements
  
 * Home page
   * provide a brief overview of the business
@@ -51,7 +51,7 @@
 ```
 
 
-##Section :three: – Structure Requirements
+## Section :three: – Structure Requirements
 
 * Site Map (https://draw.io)
 * Responsive design Wireframes (https://draw.io)
@@ -60,7 +60,7 @@
   * Desktops
 
 
-##Section :four: – HTML Requirements
+## Section :four: – HTML Requirements
 
 * HTML5 semantic elements
 * Meta tags
@@ -74,7 +74,7 @@
 * Lists
 
 
-##Section :five: – CSS Requirements
+## Section :five: – CSS Requirements
 
 * Fluid layout
 * Media queries

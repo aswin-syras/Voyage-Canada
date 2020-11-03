@@ -15,7 +15,6 @@
 ## :one: – Planning Checklist
 
 1. What is the Purpose of the Website?
-<<<<<<< HEAD
 > This is a website for our travel agency company VC, i.e. Voyage-Canada.
 > Our product are digital travel guides for different destinations in Canada.
 > We aim to use this website to promote our products.
@@ -23,15 +22,6 @@
 2. Who is the Target Audience?
 > Target Audience include travellers who want to find travelling destinations in Canada,
 > also anyone online who wants to use digital travel guides to know more about Canada.
-=======
-> This is a website for our travel agency company VC, i.e. Voyage-Canada.\n
-> Our product are digital travel guides for different destinations in Canada.\n
-> We aim to use this website to promote our products.
-
-2. Who is the Target Audience?
-> Target Audience include travellers who want to find travelling destinations in Canada,\n
-> also anyone online who wants to use digital travel guides to know more about Canada.\n
->>>>>>> HomePage
 
 3. How many pages will be included in your website?
 > 5 Pages will be included, i.e. Home page, Contact Us page, About Us page, Product Info page, Product Detail Page for Toronto travel guide.
@@ -40,16 +30,10 @@
 > Mainly the travel images of Canada for the scenic spots included in our product.
 
 5. What colors will you use on the website?
-<<<<<<< HEAD
 > Blue (Color of sky and water)
-> Green (Color of Trees)
+> Green (Color of trees)
 > Red (Color of maple leaf)
-=======
-> Blue (Color of sky and water)\n
-> Green (Color of trees)\n
-> Red (Color of maple leaf)\n
 > White (Color of snow)
->>>>>>> HomePage
 
 6. What font styles will you use within the website?
 > **We need to choose one in Google Fonts**

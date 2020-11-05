@@ -1,15 +1,48 @@
+/* Term project: Voyage-Canada */
+
+/*
+To apply a mobile-first strategy, the mobile styles are listed first as they are the default styles.
+Next, media queries are used to add styles for larger viewports, progressing from tablet to desktop.
+*/
+
 body { 
-    color: #000000; background-color: lightcyan; 
+    color: #000000;
+    background-color: lightcyan; 
 }
-#container   { 
+
+#container { 
     width: 90%; 
     margin: 0 auto 0 auto; 
     background-color: white;
 }
-.floatleft  { 
-    float: left; margin-right: 3%; 
- } 
+
+.floatleft { 
+    float: left; 
+    margin-right: 3%; 
+ }
+
  .floatright { 
-    float: right;margin-left: 3%;
+    float: right;
+    margin-left: 3%;
  }        
  
+/*
+Pseudo-Classes for desktop viewport (ppt Chapter 06, Page 25)
+a:link, a:visited, a:hover, and a:active
+*/
+
+
+/*
+Using Gradients (ppt Chapter 06, Page 31), for example,
+body {
+    background: -moz-linear-gradient(white, blue);
+    background: -o-linear-gradient(white, blue);
+    background: -webkit-linear-gradient(white, blue);
+    background: linear-gradient(white, blue);
+}
+*/
+
+/* Reminder:
+In the end, validate CSS code and fix any errors.
+https://jigsaw.w3.org/css-validator/
+*/

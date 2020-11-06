@@ -1,34 +1,54 @@
-<!--
-    Term Project: Voyoge-Canada
-    Course Name: 2020F CSD 1113_8 Web Technologies I
-    Group Number: 1
-    Team Members: Aswin Syras, Rejo Raji Thankachan, Yiwei Shen
--->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Welcome to Voyage canada</title>
+    <title>Voyage Canada Sample</title>
 </head>
+
 <body>
-    <div id="container">
-        <img src="image/logo.png" class="floatleft" alt="logo" width="10%" height="10%">
-        <p style="font-weight: bolder; font-size: 50px; color: rgb(0, 0, 83);" >WELCOME TO VOYAGE CANADA</p>
-        <i style="color:rgb(0, 0, 83); font-size: large; margin-top: 100%;">
-            "Explore Canada with a smile"
-        </i>
-        <img src="image/ca.png" alt="canada flag" class="floatright" >
-    </div>
-    <br>
-    <div id="container">
-        <nav>
-            <a href="Home.html">Products</a><br>
-            <a href="Deals.html">Order</a><br>
-            <a href="contact.html">News</a><br>
-            <a href="About us.html">Events</a><br>
-        </nav>
-    </div>
+    <header class="first">
+        <h2>VOYAGE CANADA</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html">SECOND PAGE</a></li>
+        </ul>
+    </nav>
+    
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="./images/image01.jpg" style="width:100%">
+          <div class="text">Voyage Canada</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="./images/image02.jpg" style="width:100%">
+          <div class="text">Voyage Canada</div>
+        </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    <script src="slide.js"></script>
+    <main>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+            more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    </main>
 </body>
+
 </html>

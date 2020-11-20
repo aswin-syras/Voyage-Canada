@@ -164,7 +164,7 @@ ul{
     scroll-snap-points-x: repeat(300px);
     scroll-snap-type: mandatory;
     
-  }
+ }
 
 .slides::-webkit-scrollbar {
     width: 10px;
@@ -783,4 +783,91 @@ input[type="text"]:focus {
 
 input[type="submit"]:hover {
     opacity: 1;
+}
+
+.des_centered{
+    position: absolute;
+    color: rgb(233, 217, 133);
+    width: 100%;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+}
+
+.des_h2{
+    color: white;
+    margin-top: auto;
+    margin-left: 2%;
+}
+
+.des_h4{
+    color: white;
+    margin-left: 5%;
+}
+
+.des_p{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pac_button {
+    background-color: #c04141;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 5%;
+  }
+
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    
+}
+
+.card{
+    background: white;
+    margin: 0rem 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.card img{width: 100%;
+    object-fit: cover;
+}
+
+.card h2{
+    margin: 2rem 0rem 1rem 0rem;
+    color: black;
+}
+
+.card p{
+    padding: 2rem;
+}
+
+.pac_adv {
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .pac_adv:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}	
+.pac_container{
+    width: 300px;
+    height: 300px;
 }

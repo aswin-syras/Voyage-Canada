@@ -33,7 +33,7 @@ nav ul{
 }
 
 #logo{
-    flex: 2;
+    flex: 5;
     font-family: 'Lobster', cursive;
     font-size: 3vw;
 }
@@ -376,3 +376,43 @@ footer h1{
         width:80%;
     }
 }
+.des_centered{
+    position: absolute;
+    color: rgb(233, 217, 133);
+    width: 100%;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+}
+
+.des_h2{
+    color: white;
+    margin-top: auto;
+    margin-left: 2%;
+}
+
+.des_h4{
+    color: white;
+    margin-left: 5%;
+}
+
+.des_p{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pac_button {
+    background-color: #c04141;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 5%;
+  }

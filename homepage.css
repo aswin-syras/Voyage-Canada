@@ -397,19 +397,14 @@ ul{
     height: 50%;
     overflow: hidden;
 }
-
-.package_details img{
-    width: 100%;
-}
-
-.location_pin{
-    width: 4vh;
-    height: 4vh;
+.package_details{
+    height: 11.5vw;
 }
 
 .package_details a{
     text-decoration: none;
     color: black;
+    
 }
 
 .first{
@@ -426,29 +421,19 @@ ul{
 
 .second{
     display: flex;
-    padding: 10px 0px 10px 10px;
+    padding: 5px 10px 5px 10px;
     align-items: center;
 }
 .second p{
     margin-left: 10px;
-    font-size: 3vh;
-}
-.third{
-    display: flex;
-    padding: 10px 0px 10px 10px;
-    align-items: center;
-}
-
-.third p{
-    margin-left: 10px;
-    font-size: 3vh;
+    font-size: 2.1vh;
 }
 
 .package_button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4vh;
+    margin-top: 20px;
 }
 
 .button_style{
@@ -743,7 +728,6 @@ address a{
     display: inline-block;
     position: relative;
     height: 20px;
-    float: right;
     position: relative;
 }
 

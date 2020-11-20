@@ -747,7 +747,7 @@ address a{
     position: relative;
 }
 
-input[type="text"] {
+input[id="search"] {
     height: 50px;
     font-size: 3vh;
     display: inline-block;
@@ -778,7 +778,7 @@ input[type="text"]:focus {
     border-bottom: 1px solid #BBB;
     cursor: text;
 }
-input[type="submit"] {
+#search_submit {
     height: 5vh;
     width: 5vh;
     color:red;

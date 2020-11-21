@@ -13,59 +13,73 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <nav calss="nav-container">
-        <div class="logo">
-            <h4>Voyage Canada</h4>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <div class="logo">
+                    <h4>Voyage Canada</h4>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Destination</a>
+                    </li>
+                    <li>
+                        <a href="package.html">Packages</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div id="wrap">
+                    <form action="" autocomplete="on">
+                        <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input
+                            id="search_submit" value="Rechercher" type="submit">
+                    </form>
+                </div>
+            </nav>
         </div>
-        <ul class="nav-links">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="#">Destination</a>
-            </li>
-            <li>
-                <a href="package.html">Packages</a>
-            </li>
-            <li>
-                <a href="about-us.html">About Us</a>
-            </li>
-            <li>
-                <a href="#">Contact Us</a>
-            </li>
-        </ul>
-        <div id="wrap">
-            <form action="" autocomplete="on">
-                <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input
-                    id="search_submit" value="Rechercher" type="submit">
-            </form>
-        </div>
-    </nav>
+    </header>
     <main>
+        <img id="contactus_image" src="images/contactus.png" alt="people sitting in an office">
         <section class="contactus">
-            <h1 class="h1contactus">General Contact Information</h1>
-            <p>
-                Mailing address: 265 Yorkland Blvd, North York, ON M2J 5C7, Canada
-                General company phone number: +1 123-412-001
-                Our email address is <a href="mailto:yoyagecanada@gmail.com"><u>yoyagecanada@gmail.com</u></a>
-            </p>
-            <h1 class="h1contactus">Location with a map</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5762.1173422478405!2d-79.34688787288043!3d43.771640916469536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d2f3bcd59065%3A0x61f9860998bbf0c8!2sParkway%20Forest%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1605946184194!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <h1 class="h1contactus">Hours of operation</h1>
-            <p> Please try to contact us via emails. Office Hour: </p>
-            
-            <!-- unordered list -->
-            <ul>
-                <li>Friday	8a.m.–10p.m.</li>
-                <li>Saturday	8a.m.–10p.m.</li>
-                <li>Sunday	Closed</li>
-                <li>Monday	8a.m.–10p.m.</li>
-                <li>Tuesday	8a.m.–10p.m.</li>
-                <li>Wednesday	8a.m.–10p.m.</li>
-                <li>Thursday	8a.m.–10p.m.</li>
-            </ul>
-
-            <h1 class="h1contactus">Contact form</h1>
+            <div class="contactus_div">
+                <h1 class="h1contactus">General Contact Information</h1>
+                <p>
+                    Mailing address: <br>
+                    265 Yorkland Blvd, North York, ON M2J 5C7, Canada <br>
+                    General company phone number: <br>
+                    +1 123-412-001 <br>
+                    Our email address is <a href="mailto:yoyagecanada@gmail.com"><u>yoyagecanada@gmail.com</u></a>
+                </p>
+            </div>
+            <div class="contactus_div">
+                <h1 class="h1contactus">Location with a map</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5762.1173422478405!2d-79.34688787288043!3d43.771640916469536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d2f3bcd59065%3A0x61f9860998bbf0c8!2sParkway%20Forest%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1605946184194!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="contactus_div">
+                <h1 class="h1contactus">Hours of operation</h1>
+                <p> Please try to contact us via emails. <br>
+                    Office Hour: </p>
+                
+                <!-- unordered list -->
+                <ul>
+                    <li>Friday	8a.m.–10p.m.</li>
+                    <li>Saturday	8a.m.–10p.m.</li>
+                    <li>Sunday	Closed</li>
+                    <li>Monday	8a.m.–10p.m.</li>
+                    <li>Tuesday	8a.m.–10p.m.</li>
+                    <li>Wednesday	8a.m.–10p.m.</li>
+                    <li>Thursday	8a.m.–10p.m.</li>
+                </ul>
+            </div>
+            <div class="contactus_div">
+                <h1 class="h1contactus">Contact form</h1>
                 <form method="GET" action="#">
                     <label for="first_name">First Name</label>
                     <input type="text" id="first_name" name="firs_tname" placeholder="Enter first name"><br>
@@ -84,10 +98,13 @@
                 
                     <input type="submit" value="submit">
                 </form>
-            <h1 class="h1contactus">Join us</h1>
-            <p>
-                Have you ever considered to be a front-end developer and design amazing website? Do you like to create beautiful illustrations of travel packages to present online? Join us, we are hiring.
-            </p>
+            </div>
+            <div class="contactus_div">
+                <h1 class="h1contactus">Join us</h1>
+                <p>
+                    Have you ever considered to be a front-end developer and design amazing website? Do you like to create beautiful illustrations of travel packages to present online? Join us, we are hiring.
+                </p>
+            </div>
         </section>
     </main>
     <footer class="buttom">

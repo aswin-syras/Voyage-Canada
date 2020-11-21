@@ -6,86 +6,105 @@
     <!-- css file to be move to separated css folder later -->
     <link rel="stylesheet" href="homepage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for a travel agency company called Voyage Canada">
+    <meta name="keywords" content="Travel, Adventure, Trip, Snow, Country side">
+    <meta name="author" content="Aswin, Rejo, David">
     <link rel="icon" href="./images/logo.PNG">
     <title>Contact Us</title>
 </head>
 <body>
-    <nav calss="nav-container">
-        <div class="logo">
-            <h4>Voyage Canada</h4>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <div class="logo">
+                    <h4>Voyage Canada</h4>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Destination</a>
+                    </li>
+                    <li>
+                        <a href="package.html">Packages</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div id="wrap">
+                    <form action="" autocomplete="on">
+                        <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input
+                            id="search_submit" value="Rechercher" type="submit">
+                    </form>
+                </div>
+            </nav>
         </div>
-        <ul class="nav-links">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="#">Destination</a>
-            </li>
-            <li>
-                <a href="#">Packages</a>
-            </li>
-            <li>
-                <a href="about-us.html">About Us</a>
-            </li>
-            <li>
-                <a href="#">Contact Us</a>
-            </li>
-        </ul>
-        <div id="wrap">
-            <form action="" autocomplete="on">
-                <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input
-                    id="search_submit" value="Rechercher" type="submit">
-            </form>
-        </div>
-    </nav>
+    </header>
     <main>
+        <img id="contactus_image" src="images/contactus.png" alt="people sitting in an office">
         <section class="contactus">
-            <p>
-                General Contact Information
-
-                Mailing address: 265 Yorkland Blvd, North York, ON M2J 5C7, Canada
-                General company phone number: +1 123-412-001
-                Our email address is <a href="mailto:yoyagecanada@gmail.com">yoyagecanada@gmail.com</a>
-            </p>
-            <h1 class="h1contactus">Location with a map</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5762.229259219559!2d-79.34412260249994!3d43.77047928494443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2d6fc6ca7f5d%3A0x2a12502c1cd1e815!2sLambton%20College!5e0!3m2!1sen!2sca!4v1605853447056!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <h1 class="h1contactus">Hours of operation</h1>
-            <p> Please try to contact us via emails. Office Hour: </p>
-            
-            <ul>
-                <li> 
-                <li>Friday	8a.m.–10p.m.</li>
-                <li>Saturday	8a.m.–10p.m.</li>
-                <li>Sunday	Closed</li>
-                <li>Monday	8a.m.–10p.m.</li>
-                <li>Tuesday	8a.m.–10p.m.</li>
-                <li>Wednesday	8a.m.–10p.m.</li>
-                <li>Thursday	8a.m.–10p.m.</li>
-            </ul>
-
-            <h1 class="h1contactus">Contact form</h1>
+            <div class="contactus_div">
+                <h1 class="h1contactus">General Contact Information</h1>
+                <p>
+                    Mailing address: <br>
+                    265 Yorkland Blvd, North York, ON M2J 5C7, Canada <br>
+                    General company phone number: <br>
+                    +1 123-412-001 <br>
+                    Our email address is <a href="mailto:yoyagecanada@gmail.com"><u>yoyagecanada@gmail.com</u></a>
+                </p>
+            </div>
+            <div class="contactus_div">
+                <h1 class="h1contactus">Location with a map</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5762.1173422478405!2d-79.34688787288043!3d43.771640916469536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d2f3bcd59065%3A0x61f9860998bbf0c8!2sParkway%20Forest%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1605946184194!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="contactus_div">
+                <h1 class="h1contactus">Hours of operation</h1>
+                <p> Please try to contact us via emails. <br>
+                    Office Hour: </p>
+                
+                <!-- unordered list -->
+                <ul>
+                    <li>Friday	8a.m.–10p.m.</li>
+                    <li>Saturday	8a.m.–10p.m.</li>
+                    <li>Sunday	Closed</li>
+                    <li>Monday	8a.m.–10p.m.</li>
+                    <li>Tuesday	8a.m.–10p.m.</li>
+                    <li>Wednesday	8a.m.–10p.m.</li>
+                    <li>Thursday	8a.m.–10p.m.</li>
+                </ul>
+            </div>
+            <div class="contactus_div">
+                <h1 class="h1contactus">Contact form</h1>
                 <form method="GET" action="#">
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="firs_tname" placeholder="Your first name: "><br>
+                    <input type="text" id="first_name" name="firs_tname" placeholder="Enter first name"><br>
                 
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Your last name: "><br>
+                    <input type="text" id="last_name" name="last_name" placeholder="Enter last name"><br>
                 
                     <label for="country">Where are you currently</label>
                     <select id="country" name="country">
-                        <option value="canada">Canada</option>
-                        <option value="outside_canada">Other country</option>
+                        <option value="canada">within Canada</option>
+                        <option value="outside_canada">Outside Canada</option>
                     </select><br>
                 
-                    <label for="subject">Tell us what you are looking for</label><br>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <label for="subject">Contact us</label><br>
+                    <textarea id="subject" name="subject" placeholder="Write your subject..." style="height:200px"></textarea>
                 
                     <input type="submit" value="submit">
                 </form>
-            <h1 class="h1contactus">Join us</h1>
-            <p>
-                Have you ever considered to be a front-end developer and design amazing website? Do you like to create beautiful illustrations of travel packages to present online? Join us, we are hiring.
-            </p>
+            </div>
+            <div class="contactus_div">
+                <h1 class="h1contactus">Join us</h1>
+                <p>
+                    Have you ever considered to be a front-end developer and design amazing website? Do you like to create beautiful illustrations of travel packages to present online? Join us, we are hiring.
+                </p>
+            </div>
         </section>
     </main>
     <footer class="buttom">

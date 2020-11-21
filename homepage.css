@@ -862,12 +862,26 @@ input[type="submit"]:hover {
     transition: width 2s, height 2s, transform 2s;
   }
   
-  .pac_adv:hover {
+.pac_adv:hover {
     width: 300px;
     height: 300px;
     transform: rotate(180deg);
 }	
-.pac_container{
+.pac_container {
     width: 300px;
     height: 300px;
+}
+
+#aboutusimage {
+    width: 100%;
+    height: auto;
+}
+
+.avatar_image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 7em;
+  float: left;
+  margin: 2em;
 }

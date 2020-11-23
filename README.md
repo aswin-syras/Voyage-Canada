@@ -15,19 +15,19 @@
 ## :one: – Planning Checklist
 
 1. What is the Purpose of the Website?
-> This is a website for our travel agency company VC, i.e. Voyage-Canada.  
-> Our product are digital travel guides for different destinations in Canada.  
-> We aim to use this website to promote our products.
+> Our company Voyage-Canada is a travel agency company.
+> Our product are travel packages for different travelling destinations in Canada.  
+> We aim to use this website to promote our products online.
 
 2. Who is the Target Audience?
-> Target Audience include travellers who want to find travelling destinations in Canada,  
-> also anyone online who wants to use digital travel guides to know more about Canada.
+> Our target audience are including travellers who want to choose their travelling destinations in Canada,  
+> anyone who wants to book and have a wonderful trip in Canada.
 
 3. How many pages will be included in your website?
-> 5 Pages will be included, i.e. Home page, Contact Us page, About Us page, Product Info page, Product Detail Page for Toronto travel guide.
+> 5 Pages will be included, i.e. Home page, Package page, Contact Us page, About Us page, Booking page.
 
 4. What graphics will you use on the website?
-> Mainly the travel images of Canada for the scenic spots included in our product.
+> Mainly the images of Canada for the scenic spots included in our products.
 
 5. What colors will you use on the website?
 > Blue (Color of sky and water)  
@@ -36,8 +36,7 @@
 > White (Color of snow)
 
 6. What font styles will you use within the website?
-> **We need to choose one in Google Fonts**  
-> https://fonts.google.com
+> Google Fonts (Lobster, Poppins)
 
 7. What features will be displayed on the webpages?
 > **Add more later, and what are features**  
@@ -68,11 +67,11 @@
 │   ├── image1.png
 │   ├── image2.png
 │   └── image3.png
-├── Index.html
-├── Contact.html
-├── About.html
-├── Product.html
-└── ProductDetail.html
+├── homepage.html
+├── contact-us.html
+├── about-us.html
+├── booking.html
+└── package.html
 ```
 
 

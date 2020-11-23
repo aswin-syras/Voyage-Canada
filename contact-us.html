@@ -64,11 +64,11 @@
             </div>
             <div class="contactus_div">
                 <h1 class="h1contactus">Hours of operation</h1>
-                <p> Please try to contact us via emails. <br>
-                    Office Hour: </p>
+                <p> Please try to contact us via contact form below or emails. <br><br>
+                    Office Hour: </p><br>
                 
                 <!-- unordered list -->
-                <ul>
+                <ul id="office_hour_list">
                     <li>Friday	8a.m.–10p.m.</li>
                     <li>Saturday	8a.m.–10p.m.</li>
                     <li>Sunday	Closed</li>
@@ -79,13 +79,13 @@
                 </ul>
             </div>
             <div class="contactus_div">
-                <h1 class="h1contactus">Contact form</h1>
+                <h1 class="h1contactus">Contact Form</h1>
                 <form method="GET" action="#">
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="firs_tname" placeholder="Enter first name"><br>
+                    <input type="text" id="first_name" name="firs_tname" placeholder="Enter first name" required><br>
                 
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Enter last name"><br>
+                    <input type="text" id="last_name" name="last_name" placeholder="Enter last name" required><br>
                 
                     <label for="country">Where are you currently</label>
                     <select id="country" name="country">
@@ -94,16 +94,36 @@
                     </select><br>
                 
                     <label for="subject">Contact us</label><br>
-                    <textarea id="subject" name="subject" placeholder="Write your subject..." style="height:200px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write your subject..." rows="4" cols="50"></textarea><br>
                 
-                    <input type="submit" value="submit">
+                    <input id="contact_form_submit" type="submit" value="submit">
                 </form>
             </div>
             <div class="contactus_div">
                 <h1 class="h1contactus">Join us</h1>
                 <p>
-                    Have you ever considered to be a front-end developer and design amazing website? Do you like to create beautiful illustrations of travel packages to present online? Join us, we are hiring.
-                </p>
+                    Have you ever considered to be a front-end developer and design amazing responsive website? <br>
+                    Do you enjoy travelling so much as we do? <br>
+                    Join us, we are hiring. We need: 
+                </p><br>
+                <table id="hiring_table">
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Skills</th>
+                    </tr>
+                    <tr>
+                        <td>Web Designer</td>
+                        <td>Responsive Web Design, Web Graphics</td>
+                    </tr>
+                    <tr>
+                        <td>Photographer</td>
+                        <td>Photo Retouching, Image Editing</td>
+                    </tr>
+                    <tr>
+                        <td>iOS Developer</td>
+                        <td>iOS Development, Mobile Application Development</td>
+                    </tr>
+                </table>
             </div>
         </section>
     </main>

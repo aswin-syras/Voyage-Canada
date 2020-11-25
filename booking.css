@@ -903,6 +903,34 @@ input[type=text], input[type=password] {
     background-color: #ddd;
     outline: none;
   }
+
+  input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=email]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  input[type=number], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=number]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
   
   hr {
     border: 1px solid #f1f1f1;

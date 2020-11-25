@@ -989,3 +989,15 @@ iframe {
     width: 60vw;
     height: 40vw; 
 }
+
+#contactform_subject {
+    width: 35vw;
+    height: 20vw; 
+}
+
+#aboutus_main .aboutus {
+    background: -moz-linear-gradient(#336699, #0f0f0f); 
+	background: -o-linear-gradient(#336699, #0f0f0f); 
+	background: -webkit-linear-gradient(#336699, #0f0f0f); 
+	background: linear-gradient(#336699, #0f0f0f); 
+}

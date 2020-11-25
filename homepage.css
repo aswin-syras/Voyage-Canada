@@ -986,5 +986,6 @@ li a {
 }
 
 iframe {
-    width: 80%;
+    width: 60vw;
+    height: 40vw; 
 }

@@ -704,7 +704,7 @@ address a{
 }
 
 .email button{
-    padding: 5px;
+    padding: 0.3rem;
     border: 2px solid white;
     font-weight: bold;
     cursor: pointer;
@@ -1008,4 +1008,9 @@ iframe {
         border-radius: 0;
         margin: 0;
     }
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
 }

@@ -936,13 +936,13 @@ input[type="submit"]:hover {
 
 #hiring_table, th, td {  
     border: 1px solid white;
-    padding: 15px; 
+    padding: 1vw; 
 }
 
 #hiring_table {  
     border-collapse: collapse;  
-    width: 50%;  
-    margin-left: 25%; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #office_hour_list li {
@@ -1000,4 +1000,12 @@ iframe {
 	background: -o-linear-gradient(#336699, #0f0f0f); 
 	background: -webkit-linear-gradient(#336699, #0f0f0f); 
 	background: linear-gradient(#336699, #0f0f0f); 
+}
+
+@media only screen and (max-width: 600px) {
+    .avatar_image {
+        float: none;
+        border-radius: 0;
+        margin: 0;
+    }
 }

@@ -786,6 +786,7 @@ input[type="submit"]:hover {
     opacity: 1;
 }
 
+/*--------destination----*/
 .des_centered{
     position: absolute;
     color: rgb(233, 217, 133);

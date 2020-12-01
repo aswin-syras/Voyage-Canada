@@ -62,7 +62,6 @@ nav{
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 1em;
-   
 }
 
 .nav-links  :hover{
@@ -650,7 +649,7 @@ ul{
     
 }
 address a{
-    font-size: 2.5vh;
+    font-size: 1.3rem;
     padding-left: 5px;
     color: whitesmoke;
     font-style: normal;
@@ -666,14 +665,16 @@ address a{
 
 .social_media ul{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content:  center;
+    padding-left: 0;
 }
+
 .social_media h1{
     text-align: center;
     color: blanchedalmond;
-    font-size: 2.5vh;
-    padding-bottom: 5vh;
+    font-size: 1.3rem;
+    padding-bottom: 2vh;
+    padding-top: 4vh;
 }
 
 .social{
@@ -690,8 +691,9 @@ address a{
 .social h1{
     text-align: center;
     color: blanchedalmond;
-    font-size: 2.5vh;
-    padding-bottom: 5vh;
+    font-size: 1.3rem;
+    padding-bottom: 2vh;
+    padding-top: 4vh;
 }
 
 .email{
@@ -985,12 +987,23 @@ iframe {
 	background: linear-gradient(#336699, #0f0f0f); 
 }
 .icon {
+    position: relative;
+    width: 1.3rem;
+    height: 1.3rem;
+    top: 5px;
+}
+
+.social_media .icon {
     width: 2rem;
     height: 2rem;
 }
 
 .three{
     margin-left: 6%;
+}
+
+.nav-links li a {
+    text-align: center;
 }
 
 
@@ -1022,5 +1035,14 @@ iframe {
     footer {
         flex-direction: column;
     }
-
+    
+    address .phone {
+        text-align: center;
+    }
   }
+
+
+footer address {
+    padding-bottom: 2vh;
+    padding-top: 5vh;
+}

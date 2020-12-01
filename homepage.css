@@ -577,6 +577,15 @@ ul{
     text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+
+    .guide h2{
+        margin-left: 0%;
+        text-align: center;
+    }
+
+}
+
 @media screen and (max-width: 400px) {
     .guide_container1{
         margin-top: 30px;
@@ -605,11 +614,6 @@ ul{
     .guidefirst p{
         margin-left: 10px;
         font-size: 1em;
-    }
-
-    .guide h2{
-        margin-left: 0%;
-        text-align: center;
     }
 
   }
@@ -660,6 +664,10 @@ ul{
       max-width: 50%;
     }
 
+    .h2gallery{
+        text-align: center;
+    }
+
   }
 
 @media screen and (max-width: 600px) {
@@ -669,11 +677,6 @@ ul{
       max-width: 100%;
     }
 
-    @media screen and (max-width: 400px) {
-        .h2gallery{
-            text-align: center;
-        }
-    }
   }
 
   /* About US*/

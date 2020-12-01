@@ -788,7 +788,7 @@ address{
 
 .social_media h1{
     text-align: center;
-    color: blanchedalmond;
+    color: whitesmoke;
     font-size: 1.3rem;
     padding-bottom: 2vh;
     padding-top: 4vh;
@@ -809,7 +809,7 @@ address{
 .social h1{
     
     text-align: center;
-    color: blanchedalmond;
+    color: whitesmoke;
     font-size: 1.3rem;
     padding-bottom: 2vh;
     padding-top: 4vh;
@@ -826,6 +826,7 @@ address{
 
 .email button{
     padding: 5px;
+    background-color: whitesmoke;
     border: 2px solid white;
     font-weight: bold;
     cursor: pointer;

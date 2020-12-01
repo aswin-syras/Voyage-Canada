@@ -364,8 +364,6 @@ ul{
 /* CONTAINER*/
 
 .container{
-    /*background: rgb(28,150,152);
-    background: linear-gradient(0deg, rgba(28,150,152,1) 0%, rgba(20,24,36,1) 96%);*/
     background-color: #141824;
     overflow: hidden;
     margin-top: -1%;
@@ -443,7 +441,6 @@ ul{
 .package_details a{
     text-decoration: none;
     color: black;
-    
 }
 
 .first{
@@ -578,6 +575,37 @@ ul{
     text-align: center;
 }
 
+@media screen and (max-width: 400px) {
+    .guide_container1{
+        margin-top: 30px;
+        width: 350px;
+        height: 450px;
+        background: #C4C4C4;
+        overflow: hidden;
+    }
+    
+    .guide_container2{
+        margin-top: 30px;
+        width: 350px;
+        height: 450px;
+        background: #C4C4C4;
+        overflow: hidden;
+    }
+    
+    .guide_container3{
+        margin-top: 30px;
+        width: 350px;
+        height: 450px;
+        background: #C4C4C4;
+        overflow: hidden;
+    }    
+
+    .guidefirst p{
+        margin-left: 10px;
+        font-size: 1em;
+    }
+
+  }
 
 /*----*----GUIDE----*-----*/
 
@@ -1103,10 +1131,11 @@ iframe {
     address .phone {
         text-align: center;
     }
+
+    address {
+        padding-bottom: 2vh;
+        padding-top: 5vh;
+    }
   }
 
 
-footer address {
-    padding-bottom: 2vh;
-    padding-top: 5vh;
-}

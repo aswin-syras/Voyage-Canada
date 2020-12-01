@@ -51,9 +51,8 @@ nav{
 
 .nav-links{
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-around;
-
 }
 
 .nav-links a{
@@ -62,6 +61,7 @@ nav{
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 1em;
+    white-space: nowrap;
 }
 
 .nav-links  :hover{
@@ -731,7 +731,6 @@ address a{
     display: inline-block;
     position: relative;
     height: 20px;
-    position: relative;
 }
 
 input[id="search"] {

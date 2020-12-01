@@ -51,7 +51,7 @@ nav{
 
 .nav-links{
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-around;
 
 }
@@ -61,12 +61,13 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: 600;
-    font-size: 13px;
-   
+    font-size: 1em;
+    white-space: nowrap;
 }
 
 .nav-links  :hover{
     color: rgb(89, 172, 107);
+    position: relative;
     
 }
 ul{

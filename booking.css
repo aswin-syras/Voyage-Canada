@@ -932,6 +932,27 @@ input[type=text], input[type=password] {
     background-color: #ddd;
     outline: none;
   }
+  input[list] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .browser{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[list]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
   
   hr {
     border: 1px solid #f1f1f1;

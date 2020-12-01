@@ -66,16 +66,23 @@
               <label class="label_color" for="members"><b>Number of members</b></label>
               <input type="number" placeholder="Enter the number of people" name="members" required>
               
-              <label class="label_color">
-                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-              </label>
+              <label class="label_color" for="browser"><b>Select the package</b></label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option class="browser" value="How adventure you are?">
+                    <option class="browser" value="Can you withstand the cold?">
+                    <option class="browser" value="Vibrant cities">
+                    <option class="browser" value="How about wildlife">
+                </datalist>
               
-              <p class="label_color">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-          
-              <div class="clearfix">
+              <label class="label_color">
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Agree the terms and Conditions
+              </label>
+                  <p class="label_color">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            <div class="clearfix">
                 <button type="button" class="cancelbtn">Cancel</button>
                 <button type="submit" class="signupbtn">Sign Up</button>
-              </div>
+            </div>
             </div>
           </form>
     </div>

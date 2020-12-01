@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+html{
+    background-color: #141824;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -130,7 +134,7 @@ ul{
 }
 
 .destination h1{
-    font-size: 2.5vw;
+    font-size: 2.2em;
     margin-bottom: 40px;
     padding-top: 4%;
 }
@@ -158,9 +162,8 @@ ul{
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     margin-left: 10%;
-    margin-bottom: 9%;
+    margin-bottom: 15%;
     -webkit-overflow-scrolling: touch;
-    
     scroll-snap-points-x: repeat(300px);
     scroll-snap-type: mandatory;
     
@@ -322,6 +325,38 @@ ul{
     opacity: 90%;
 }
 
+@media screen and (max-width: 924px){   
+   
+    .destination .info{
+        max-width: 30%;
+        font-size: 90%;
+        
+    }
+
+    
+    
+}   
+
+@media screen and (max-width: 800px){   
+    .slider{
+        flex-direction: column;
+    }
+    .destination .info{
+        max-width: 90%;
+        margin: auto;
+        padding-bottom: 2em;
+    }
+    .destination h1{
+        text-align: center;
+    }
+
+    .features h1{
+        text-align: center;
+        margin-right: 20%;
+    }
+  
+}
+
 /* CONTAINER*/
 
 .container{
@@ -343,7 +378,7 @@ ul{
 .features h1{
     margin-left: 20vh;
     color: rgb(255, 255, 255);
-    font-size: 2.5vw;
+    font-size: 2.2em;
     margin-top: 10vh;
 }
 
@@ -398,7 +433,7 @@ ul{
     overflow: hidden;
 }
 .package_details{
-    height: 11.5vw;
+    height: 9.5em;
 }
 
 .package_details a{
@@ -433,7 +468,8 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 4vh;
+    
 }
 
 .button_style{
@@ -445,7 +481,6 @@ ul{
     font-weight: 500;
     background-color: transparent;
 }
-
 
 
 /* --------close container------*/
@@ -460,7 +495,7 @@ ul{
 .guide h2{
     margin-left: 20vh;
     color: rgb(255, 255, 255);
-    font-size: 2.5vw;
+    font-size: 2.2em;
     margin-top: 10vh;
 }
 
@@ -552,7 +587,7 @@ ul{
 }
 
 .h2gallery{
-    font-size: 2.5vw;
+    font-size: 2.2em;
     padding-bottom: 5vh;
 }
 .row { 
@@ -611,7 +646,7 @@ ul{
 }
 
 .h1aboutus{
-    font-size: 5vh;
+    font-size: 2.2em;
     padding-bottom: 5vh;
     padding-left: 8%;
 }
@@ -637,14 +672,13 @@ ul{
 }
   /*Footer*/
 
-  footer{
+footer{
     display: flex;
-    min-height: 5vh;
     background: #000000;
     padding-left: 8%;
     padding-right: 8%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     align-items: center;
     justify-content: space-between;
     
@@ -658,15 +692,25 @@ address a{
 
 .gmail{
     padding-top: 5px;
+    display: flex;
+    
+}
+
+.gmail a{
+    padding-left: 10px;
 }
 .social_media{
-    width: 20%;
-    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
 }
 
 .social_media ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 .social_media h1{
@@ -677,7 +721,8 @@ address a{
 }
 
 .social{
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
     padding-right: 2%;
 }
 
@@ -688,6 +733,7 @@ address a{
     
 }
 .social h1{
+    
     text-align: center;
     color: blanchedalmond;
     font-size: 2.5vh;
@@ -704,7 +750,7 @@ address a{
 }
 
 .email button{
-    padding: 0.3rem;
+    padding: 5px;
     border: 2px solid white;
     font-weight: bold;
     cursor: pointer;
@@ -713,10 +759,24 @@ address a{
 @media screen and (max-width: 800px){
     footer h1{
         flex: 1;
+        
     }
 
-    footer img{
-        width:80%;
+    .social_media h1{
+        font-size: .8em;
+    }
+
+    .social h1{
+        font-size: .8em;
+    }
+
+    address a{
+        font-size: .8em;
+    }
+  
+
+    footer{
+        flex-direction: column;
     }
 }
 

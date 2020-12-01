@@ -17,6 +17,8 @@ button{
 
 html {
     scroll-behavior: smooth;
+    background-color:#141824;
+
   }
 
   .nav-container{
@@ -65,8 +67,27 @@ ul{
 .logo{
     flex: 2;
     font-family: 'Lobster', cursive;
-    font-size: 2vw;
+    font-size: 2em;
 }
+
+@media only screen and (max-width: 933px) {
+    .aboutus_div {
+        padding: 3vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    .nav-container {
+        width: 100%;
+        position: relative;
+    }
+    .nav-links {
+        display: inline;
+        text-align: right;
+    }
+
+  }
 
 @media screen and (max-width:700px){
     .nav-links{
@@ -138,6 +159,10 @@ ul{
     height: 100%;
     margin-top: -1%;
 }
+
+#main-details h1{
+    font-size: 2.2em;
+}
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
@@ -183,23 +208,6 @@ ul{
     overflow: hidden;
 }
 
-@media screen and (max-width: 800px) {
-    .grid{
-        width: 50%;
-    }
-    .sub-grid img{
-        width: auto;
-        height: 130%;
-    }
-    .sub-grid{
-        height: 50vw;
-    }
-
-    h1{
-        text-align: center;
-    }
-  }
-
 @media screen and (max-width: 855px) {
     .grid{
         width: 50%;
@@ -220,7 +228,27 @@ ul{
         font-size: .5em;
         padding: 1.5vw;
     }
-  }
+}
+
+@media screen and (max-width: 800px) {
+    .grid{
+        width: 50%;
+    }
+    .sub-grid img{
+        width: auto;
+        height: 130%;
+    }
+    .sub-grid{
+        height: 50vw;
+    }
+
+    #main-details h1{
+        text-align: center;
+        font-size: 1.5em;
+    }
+}
+
+
 
 @media screen and (max-width: 600px) {
     .sub-grid{
@@ -232,7 +260,7 @@ ul{
         height: 100%;
       
     }
-  }
+}
 
 
 @media screen and (max-width: 450px) {
@@ -256,12 +284,14 @@ ul{
         grid-template-columns: repeat(auto-fill, minmax(10.45rem, 1fr));
     }
 
-  }
+}
 
 @media screen and (max-width: 1100px) {
 
 }
 
+
+/*GO TOP*/
 h1{
     color: white;
     font-size: 3.5vw;

@@ -160,7 +160,7 @@ ul{
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    margin-left: 10%;
+    margin-left: 2em;
     margin-bottom: 15%;
     -webkit-overflow-scrolling: touch;
     scroll-snap-points-x: repeat(300px);
@@ -353,6 +353,11 @@ ul{
         text-align: center;
         margin-right: 20%;
     }
+
+    .slides div {
+        width: 300px;
+        height: 200px;
+      }
   
 }
 
@@ -709,13 +714,8 @@ address a{
 
 .social_media ul{
     display: flex;
-<<<<<<< HEAD
     justify-content: space-evenly;
     
-=======
-    justify-content:  center;
-    padding-left: 0;
->>>>>>> 1706f5d02cb90c254a99cbaccccf637c4824e80f
 }
 
 .social_media h1{

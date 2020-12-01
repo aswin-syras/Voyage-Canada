@@ -958,24 +958,6 @@ input[type="submit"]:hover {
     padding-left: 2%;
 }
 
-@media only screen and (max-width: 933px) {
-    .aboutus_div {
-        padding: 3vh;
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 80%;
-    }
-
-    .nav-container {
-        width: 100%;
-        position: relative;
-    }
-    .nav-links {
-        display: inline;
-        text-align: right;
-    }
-
-  }
 
 li a {
     font-size: 1vh;
@@ -1002,6 +984,15 @@ iframe {
 	background: -webkit-linear-gradient(#336699, #0f0f0f); 
 	background: linear-gradient(#336699, #0f0f0f); 
 }
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.three{
+    margin-left: 6%;
+}
+
 
 @media only screen and (max-width: 600px) {
     .avatar_image {
@@ -1011,11 +1002,25 @@ iframe {
     }
 }
 
-.icon {
-    width: 2rem;
-    height: 2rem;
-}
+@media only screen and (max-width: 933px) {
+    .aboutus_div {
+        padding: 3vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
 
-.three{
-    margin-left: 6%;
-}
+    .nav-container {
+        width: 100%;
+        position: relative;
+    }
+    .nav-links {
+        display: inline;
+        text-align: right;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+  }

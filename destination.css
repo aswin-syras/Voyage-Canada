@@ -389,7 +389,7 @@ address a{
 }
 .social_media h1{
     text-align: center;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     font-size: 2.5vh;
     padding-bottom: 5vh;
 }
@@ -409,7 +409,7 @@ address a{
 .social h1{
     
     text-align: center;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     font-size: 2.5vh;
     padding-bottom: 5vh;
 }
@@ -425,6 +425,7 @@ address a{
 
 .email button{
     padding: 5px;
+    background-color: white;
     border: 2px solid white;
     font-weight: bold;
     cursor: pointer;

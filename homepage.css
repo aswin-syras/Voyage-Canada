@@ -351,7 +351,7 @@ ul{
 
     .features h1{
         text-align: center;
-        margin-right: 20%;
+        margin-left: 0%;
     }
 
     .slides div {
@@ -364,8 +364,6 @@ ul{
 /* CONTAINER*/
 
 .container{
-    /*background: rgb(28,150,152);
-    background: linear-gradient(0deg, rgba(28,150,152,1) 0%, rgba(20,24,36,1) 96%);*/
     background-color: #141824;
     overflow: hidden;
     margin-top: -1%;
@@ -380,7 +378,7 @@ ul{
 }
 
 .features h1{
-    margin-left: 20vh;
+    padding-left: 8%;
     color: rgb(255, 255, 255);
     font-size: 2.2em;
     margin-top: 10vh;
@@ -398,7 +396,7 @@ ul{
 .sub_container1{
     margin-top: 30px;
     width: 300px;
-    height: 450px;
+    height: 460px;
     background: #C4C4C4;
     overflow: hidden;
 }
@@ -406,7 +404,7 @@ ul{
 .sub_container2{
     margin-top: 30px;
     width: 300px;
-    height: 450px;
+    height: 460px;
     background: #C4C4C4;
     overflow: hidden;
 }
@@ -414,7 +412,7 @@ ul{
 .sub_container3{
     margin-top: 30px;
     width: 300px;
-    height: 450px;
+    height: 460px;
     background: #C4C4C4;
     overflow: hidden;
 }
@@ -422,7 +420,7 @@ ul{
 .sub_container4{
     margin-top: 30px;
     width: 300px;
-    height: 450px;
+    height: 460px;
     background: #C4C4C4;
     overflow: hidden;
 }
@@ -454,7 +452,7 @@ ul{
 
 .first p{
     margin-left: 10px;
-    font-size: 3vh;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -465,14 +463,14 @@ ul{
 }
 .second p{
     margin-left: 10px;
-    font-size: 2.1vh;
+    font-size: .8em;
 }
 
 .package_button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4vh;
+    margin-top: 1.5em;
     
 }
 
@@ -497,7 +495,7 @@ ul{
 }
 
 .guide h2{
-    margin-left: 20vh;
+    margin-left: 8%;
     color: rgb(255, 255, 255);
     font-size: 2.2em;
     margin-top: 10vh;
@@ -545,11 +543,15 @@ ul{
     overflow: hidden;
 }
 
+.guide_details{	
+    height: 8em;	
+}
+
 .guide_button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4vh;
+    margin-top: 2em;
 }
 
 .guide_style{
@@ -569,17 +571,57 @@ ul{
 
 .guidefirst p{
     margin-left: 10px;
-    font-size: 2.5vh;
+    font-size: .9em;
 }
 
 .guidefirst h1{
-    font-size: 4vh;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
 }
+@media screen and (max-width: 800px) {	
+
+    .guide h2{	
+        margin-left: 0%;	
+        text-align: center;	
+    }	
+
+}	
+
+@media screen and (max-width: 400px) {	
+    .guide_container1{	
+        margin-top: 30px;	
+        width: 350px;	
+        height: 450px;	
+        background: #C4C4C4;	
+        overflow: hidden;	
+    }	
+
+    .guide_container2{	
+        margin-top: 30px;	
+        width: 350px;	
+        height: 450px;	
+        background: #C4C4C4;	
+        overflow: hidden;	
+    }	
+
+    .guide_container3{	
+        margin-top: 30px;	
+        width: 350px;	
+        height: 450px;	
+        background: #C4C4C4;	
+        overflow: hidden;	
+    }    	
+
+    .guidefirst p{	
+        margin-left: 10px;	
+        font-size: 1em;	
+    }	
+
+  }	
 
 
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .guide_container1{
         margin-top: 30px;
         width: 310px;
@@ -655,6 +697,9 @@ ul{
       flex: 50%;
       max-width: 50%;
     }
+    .h2gallery{	
+        text-align: center;	
+    }
 
   }
 
@@ -695,8 +740,11 @@ ul{
 .aboutus_imgdiv{
     margin-bottom: 50px;
     margin-right: 50px;
-    width: 200%;
-    height: 100%;
+    height: 30%;
+    overflow: hidden;
+    
+    
+    
 }
 
 .aboutus_container .aboutus_img{
@@ -704,6 +752,25 @@ ul{
     height: 100%;
     margin-bottom: 5%;
     padding-right: 10%;
+}
+
+@media screen and (max-width: 800px){	
+
+
+    .aboutus_container{	
+        flex-direction: column;	
+    }	
+
+    .aboutus_imgdiv{	
+        padding-left: 4em;	
+        padding-top: 2em;	
+        margin-bottom: 50px;	
+        width: 50%;	
+    }	
+
+    .h1aboutus{	
+        text-align: center;	
+    }	
 }
   /*Footer*/
 
@@ -723,6 +790,10 @@ address a{
     padding-left: 5px;
     color: whitesmoke;
     font-style: normal;
+}
+
+address{	
+    padding-top: 2em;	
 }
 
 .gmail{
@@ -745,13 +816,14 @@ address a{
 
 .social_media ul{
     display: flex;
+    padding-right: 3em;
     justify-content: space-evenly;
     
 }
 
 .social_media h1{
     text-align: center;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     font-size: 1.3rem;
     padding-bottom: 2vh;
     padding-top: 4vh;
@@ -772,7 +844,7 @@ address a{
 .social h1{
     
     text-align: center;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     font-size: 1.3rem;
     padding-bottom: 2vh;
     padding-top: 4vh;
@@ -789,6 +861,7 @@ address a{
 
 .email button{
     padding: 5px;
+    background-color: white;
     border: 2px solid white;
     font-weight: bold;
     cursor: pointer;
@@ -1133,6 +1206,11 @@ iframe {
     
     address .phone {
         text-align: center;
+    }
+
+    address {	
+        padding-bottom: 2vh;	
+        padding-top: 5vh;	
     }
   }
 

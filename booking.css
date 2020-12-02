@@ -716,8 +716,28 @@ address a{
     }
 
     footer img{
-        width:80%;
+        widows: 10%;
     }
+    @media screen and (max-width: 800px){
+    
+        .social_media h1{
+            font-size: .8em;
+        }
+    
+        .social h1{
+            font-size: .8em;
+        }
+    
+        address a{
+            font-size: .8em;
+        }
+      
+    
+        footer{
+            flex-direction: column;
+        }
+    }
+    
 }
 
 

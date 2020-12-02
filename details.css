@@ -154,14 +154,7 @@ ul{
     }
 }
 
-
-@media screen and (max-width: 1200px) {
-    #main-details h1{
-        padding-top: 2em;
-    }
-}
-
-@media screen and (max-width: 935px) {
+@media screen and (max-height: 1365px) {
     #main-details h1{
         padding-top: 2em;
     }

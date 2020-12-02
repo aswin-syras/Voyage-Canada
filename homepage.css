@@ -79,7 +79,7 @@ ul{
 .logo{
     flex: 2;
     font-family: 'Lobster', cursive;
-    font-size: 2vw;
+    
 }
 
 /* NAVIGATION BAR*/
@@ -616,6 +616,37 @@ ul{
         font-size: 1em;
     }
 
+  }
+
+  @media screen and (max-width: 320px) {
+    .guide_container1{
+        margin-top: 30px;
+        width: 310px;
+        height: 450px;
+        background: #C4C4C4;
+        overflow: hidden;
+    }
+    
+    .guide_container2{
+        margin-top: 30px;
+        width: 310px;
+        height: 450px;
+        background: #C4C4C4;
+        overflow: hidden;
+    }
+    
+    .guide_container3{
+        margin-top: 30px;
+        width: 310px;
+        height: 450px;
+        background: #C4C4C4;
+        overflow: hidden;
+    }    
+
+    .guidefirst p{
+        margin-left: 10px;
+        font-size: 1em;
+    }
   }
 
 /*----*----GUIDE----*-----*/

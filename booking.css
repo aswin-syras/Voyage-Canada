@@ -940,13 +940,25 @@ input[type=text], input[type=password] {
     border: none;
     background: #f1f1f1;
   }
-  .browser{
+  .browsers{
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
     background: #f1f1f1;
+    color: black;
+    position: relative;
+  }
+  .browser-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
   }
   
   input[list]:focus {
@@ -1007,3 +1019,9 @@ input[type=text], input[type=password] {
        width: 100%;
     }
   }
+
+  select option{
+      height: 2%;
+  }
+
+  

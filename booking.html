@@ -67,13 +67,13 @@
               <input type="number" placeholder="Enter the number of people" name="members" required>
               
               <label class="label_color" for="browser"><b>Select the package</b></label>
-                <input list="browsers" name="browser" id="browser">
-                <datalist id="browsers">
-                    <option class="browser" value="How adventure you are?">
-                    <option class="browser" value="Can you withstand the cold?">
-                    <option class="browser" value="Vibrant cities">
-                    <option class="browser" value="How about wildlife">
-                </datalist>
+                <select class="browsers">
+                    <option disabled selected></option>
+                    <option value="1">How adventure you are?</option>
+                    <option value="2">Can you withstand the cold?</option>
+                    <option value="3">Vibrant cities</option>
+                    <option value="4">How about wildlife</option>
+                </select>
               
               <label class="label_color">
                 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Agree the terms and Conditions

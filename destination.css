@@ -89,34 +89,7 @@ ul{
 
   }
 
-@media screen and (max-width:700px){
-    .nav-links{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        margin-right: 27px;
-        font-size: 10px;
-        margin-top: 20px;
-        height: 180px;
-        justify-content: space-around;
-    }
 
-
-    nav{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nav-container{
-        position: static;
-    }
-
-    .main-image{
-        width: 200%;
-    }
-
-}
 
 /* Home Main*/
 .top{
@@ -160,8 +133,13 @@ ul{
     margin-top: -1%;
 }
 
+
+
 #main-details h1{
+    color: white;
     font-size: 2.2em;
+    padding-left: 5vw;
+    padding-top: 5vw;
 }
 .grid{
     display: grid;
@@ -292,14 +270,7 @@ ul{
 
 
 /*GO TOP*/
-h1{
-    color: white;
-    font-size: 3.5vw;
-    padding-left: 5vw;
-    padding-top: 5vw;
-    
-    
-}
+
 
 .button_style{
     border: 3px solid rgb(255, 255, 255);
@@ -358,10 +329,15 @@ footer{
     
 }
 address a{
-    font-size: 2.5vh;
+    font-size: 1.3rem;
     padding-left: 5px;
     color: whitesmoke;
     font-style: normal;
+}
+
+address{	
+    padding-bottom: 2vh;
+    padding-top: 5vh;
 }
 
 .gmail{
@@ -373,25 +349,26 @@ address a{
 .gmail a{
     padding-left: 10px;
 }
+
 .social_media{
     text-align: center;
     width: 100%;
-    margin-left: 20px;
+    
     margin-right: 20px;
-
-
 }
 
 .social_media ul{
     display: flex;
+    padding-right: 3em;
     justify-content: space-evenly;
-    
 }
+
 .social_media h1{
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 2.5vh;
-    padding-bottom: 5vh;
+    font-size: 1.3rem;
+    padding-bottom: 2vh;
+    padding-top: 4vh;
 }
 
 .social{
@@ -410,8 +387,9 @@ address a{
     
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 2.5vh;
-    padding-bottom: 5vh;
+    font-size: 1.3rem;
+    padding-bottom: 2vh;
+    padding-top: 4vh;
 }
 
 .email{
@@ -454,6 +432,41 @@ address a{
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 933px) {
+    .aboutus_div {
+        padding: 3vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    .nav-container {
+        width: 100%;
+        position: relative;
+    }
+    .nav-links {
+        display: inline;
+        text-align: right;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    
+    address .phone {
+        text-align: center;
+    }
+
+    address {	
+        padding-bottom: 2vh;	
+        padding-top: 5vh;	
+    }
+  }
+
+
+
+
 
 /*search*/
 #wrap {

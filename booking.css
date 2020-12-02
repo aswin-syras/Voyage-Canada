@@ -51,7 +51,7 @@ nav{
 
 .nav-links{
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-around;
 
 }
@@ -61,12 +61,13 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: 600;
-    font-size: 13px;
-   
+    font-size: 1em;
+    white-space: nowrap;
 }
 
 .nav-links  :hover{
     color: rgb(89, 172, 107);
+    position: relative;
     
 }
 ul{
@@ -715,8 +716,28 @@ address a{
     }
 
     footer img{
-        width:80%;
+        widows: 10%;
     }
+    @media screen and (max-width: 800px){
+    
+        .social_media h1{
+            font-size: .8em;
+        }
+    
+        .social h1{
+            font-size: .8em;
+        }
+    
+        address a{
+            font-size: .8em;
+        }
+      
+    
+        footer{
+            flex-direction: column;
+        }
+    }
+    
 }
 
 
@@ -931,6 +952,39 @@ input[type=text], input[type=password] {
     background-color: #ddd;
     outline: none;
   }
+  input[list] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .browsers{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    color: black;
+    position: relative;
+  }
+  .browser-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  input[list]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
   
   hr {
     border: 1px solid #f1f1f1;
@@ -985,3 +1039,9 @@ input[type=text], input[type=password] {
        width: 100%;
     }
   }
+
+  select option{
+      height: 2%;
+  }
+
+  

@@ -756,9 +756,6 @@ address a{
         padding-right: 3em;
         display: flex;
     }
-    .social_media li{
-        padding: 5%;
-    }
 }
 @media only screen and (max-width: 600px) {
     .avatar_image {
@@ -783,6 +780,11 @@ address a{
     }
     .logo h4{
         font-size: 4vh;
+    }
+}
+@media only screen and (min-width: 992px){
+    form{
+        margin-top: 7%;
     }
 }
 

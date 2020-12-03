@@ -739,7 +739,31 @@ address a{
     }
     
 }
+@media only screen and (max-width: 600px) {
+    .avatar_image {
+        float: none;
+        border-radius: 0;
+        margin: 0;
+    }
+    .aboutus_div {
+        padding: 3vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
 
+    .nav-container {
+        width: 100%;
+        position: relative;
+    }
+    .nav-links {
+        display: inline;
+        text-align: right;
+    }
+    .logo h4{
+        font-size: 4vh;
+    }
+}
 
 /*search bar*/
 

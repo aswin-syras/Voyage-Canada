@@ -12,6 +12,13 @@
     <meta name="author" content="Aswin, Rejo, David">
     <link rel="icon" href="./images/logo.PNG">
     <title>Contact Us</title>
+    <style>
+        /* this is to make input type text box behave normal when focused */
+        input[type="text"]:focus {
+            background-color: white;
+            width:auto;
+            }
+    </style>
 </head>
 <body>
     <header>
@@ -82,11 +89,11 @@
             <div class="contactus_div">
                 <h1 class="h1contactus">Contact Form</h1>
                 <form method="GET" action="#">
-                    <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="firs_tname" placeholder="Enter first name" required><br>
+                    <label for="your_email">Your email: </label>
+                    <input type="email" id="your_email" name="your_email" placeholder="Enter your email" required><br>
                 
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Enter last name" required><br>
+                    <label for="your_title">The title: </label>
+                    <input type="text" id="your_title" name="your_title" placeholder="Enter the title" required><br>
                 
                     <label for="country">Where are you currently</label>
                     <select id="country" name="country">
@@ -95,7 +102,7 @@
                     </select><br>
                 
                     <label for="subject">Contact us</label><br>
-                    <textarea id="contactform_subject" name="subject" placeholder="Write your subject..."></textarea><br>
+                    <textarea id="contactform_subject" name="subject" placeholder="Write something here..."></textarea><br>
                 
                     <input id="contact_form_submit" type="submit" value="submit">
                 </form>
@@ -157,7 +164,7 @@
             <h1>Stay Connected</h1>
             <form>
                 <div class="email">
-                    <input type="mail" placeholder="E-mail" required>
+                    <input type="email" placeholder="E-mail" required>
                     <button type="submit">
                         SEND
                     </button>

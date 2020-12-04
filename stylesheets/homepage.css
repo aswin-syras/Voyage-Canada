@@ -1136,6 +1136,7 @@ li a {
 iframe {
     width: 60vw;
     height: 40vw; 
+    border: 0px;
 }
 
 #contactform_subject {
@@ -1243,3 +1244,4 @@ footer address {
     background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   }
+

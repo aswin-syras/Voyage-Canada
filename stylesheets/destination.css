@@ -21,7 +21,7 @@ html {
 
   }
 
-.nav-container{
+  .nav-container{
     background-color: rgb(218, 218, 218);
     width: 100%;
     position: fixed;
@@ -53,24 +53,23 @@ nav{
     font-weight: 600;
     font-size: 1em;
     white-space: nowrap;
-    text-align: center;
 }
 
 .nav-links  :hover{
-    color: rgb(89, 172, 107);  
+    color: rgb(89, 172, 107);
+    
 }
-
-
-
 ul{
     list-style: none;
 }
 
-.logo h4 {
+.logo{
     font-size: 4vh;
     flex: 2;
     font-family: 'Lobster', cursive;
+    
 }
+
 
 @media only screen and (max-width: 933px) {
     .aboutus_div {

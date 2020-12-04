@@ -38,7 +38,7 @@
                     </li>
                 </ul>
                 <div id="wrap">
-                    <form action="" autocomplete="on">
+                    <form autocomplete="on">
                         <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input
                             id="search_submit" value="Rechercher" type="submit">
                     </form>
@@ -58,7 +58,7 @@
             </div>
         </section>
         <section id="main-details">
-            <h1>Destinations you should Visit</h1>
+            <h2>Destinations you should Visit</h2>
             <div class="grid">
                 <div class="sub-grid">
                     <div class="img-grid">
@@ -170,22 +170,20 @@
                 </div>
             </div>
         </section>
-        <section class="div-gotop">
             <div class="gotop">
-                <a href="#main-details">
-                    <button class="button_style" type="button"> GO TOP</button>
-                </a>
+                    <form  method="GET" action="#main-details">
+                        <button class="button_style" type="submit"> GO TOP</button>
+                    </form>
             </div>
-        </section>
     </main>
     <footer>
         <address>
             <div class="phone">
-                <img src="./images/phone-call.png" alt="phone" width="20px" height="20px">
+                <img src="./images/phone-call.png" alt="phone" width="20" height="20">
                 <a href="tel:123-412-001">123-412-001</a>
             </div>
             <div class="gmail">
-                <img src="./images/mail.png" alt="mail" width="20px" height="20px">
+                <img src="./images/mail.png" alt="mail" width="20" height="20">
                 <a href="mailto:yoyagecanada@gmail.com">yoyagecanada@gmail.com</a>
             </div>
         </address>
@@ -207,7 +205,7 @@
             <h1>Stay Connected</h1>
             <form>
                 <div class="email">
-                    <input type="mail" placeholder="E-mail" required>
+                    <input type="email" placeholder="E-mail" required>
                     <button class="fill" type="submit">
                         SEND
                     </button>

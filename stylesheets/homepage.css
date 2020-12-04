@@ -132,7 +132,7 @@ ul{
     margin-top: -1%;
 }
 
-.destination h1{
+.destination h2{
     font-size: 2.2em;
     margin-bottom: 40px;
     padding-top: 4%;
@@ -163,9 +163,6 @@ ul{
     margin-left: 2em;
     margin-bottom: 15%;
     -webkit-overflow-scrolling: touch;
-    scroll-snap-points-x: repeat(300px);
-    scroll-snap-type: mandatory;
-    
  }
 
 .slides::-webkit-scrollbar {
@@ -319,7 +316,7 @@ ul{
     top: 80%;
     left: 50%;
     font-size: 5vh;
-    font-weight: 550;
+    font-weight: 500;
     transform: translate(-50%, -50%);
     opacity: 90%;
 }
@@ -330,10 +327,7 @@ ul{
         max-width: 30%;
         font-size: 90%;
         
-    }
-
-    
-    
+    }  
 }   
 
 @media screen and (max-width: 800px){   
@@ -345,11 +339,11 @@ ul{
         margin: auto;
         padding-bottom: 2em;
     }
-    .destination h1{
+    .destination h2{
         text-align: center;
     }
 
-    .features h1{
+    .features h2{
         text-align: center;
         margin-left: 0%;
     }
@@ -377,7 +371,7 @@ ul{
     justify-content: space-around;
 }
 
-.features h1{
+.features h2{
     padding-left: 8%;
     color: rgb(255, 255, 255);
     font-size: 2.2em;
@@ -574,7 +568,7 @@ ul{
     font-size: .9em;
 }
 
-.guidefirst h1{
+.guidefirst h2{
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
@@ -725,7 +719,7 @@ ul{
     padding-right: 8%;
 }
 
-.h1aboutus{
+.h2aboutus{
     font-size: 2.2em;
     padding-bottom: 5vh;
     padding-left: 8%;
@@ -768,7 +762,7 @@ ul{
         width: 50%;	
     }	
 
-    .h1aboutus{	
+    .h2aboutus{	
         text-align: center;	
     }	
 }
@@ -862,7 +856,7 @@ address{
 .email button{
     padding: 5px;
     background-color: white;
-    border: 2px solid white;
+    border-style: none;
     font-weight: bold;
     cursor: pointer;
 }
@@ -1121,7 +1115,7 @@ input[type="submit"]:hover {
     list-style-position: inside;
 }
 
-.aboutus_div .h1aboutus {
+.aboutus_div .h2aboutus {
     font-size: 4vh;
     padding-bottom: 1vh;
     padding-top: 4vh;

@@ -82,7 +82,9 @@ ul{
     
 }
 
-#main-details h1{
+#main-details h2{
+    color: white;
+    padding-left: 2em;
     padding-bottom: 1em;
     font-size: 2.5em;
 }
@@ -143,19 +145,19 @@ ul{
 }
 
 @media screen and (max-width: 1810px) {
-    #main-details h1{
+    #main-details h2{
         padding-top: 5em;
     }
 }
 
 @media screen and (max-width: 1380px) {
-    #main-details h1{
+    #main-details h2{
         padding-top: 5em;
     }
 }
 
 @media screen and (max-height: 1365px) {
-    #main-details h1{
+    #main-details h2{
         padding-top: 2em;
     }
 }
@@ -271,7 +273,7 @@ ul{
 }
 
 .button_book:hover{
-    background:url("./images/right-arrow.png");
+    background:url("/images/right-arrow.png");
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 7em;
@@ -313,16 +315,13 @@ h1{
     padding-left: 10px;
 }
 
-.div-gotop{
-    background-color:#141824;
-}
 
 .gotop img:hover{
     opacity: 1;
 }
 
 .button_style:hover{
-    background:url("./images/up-arrow.png");
+    background:url("/images/up-arrow.png");
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 4.8em;

@@ -135,7 +135,7 @@ ul{
 
 
 
-#main-details h1{
+#main-details h2{
     color: white;
     font-size: 2.2em;
     padding-left: 5vw;
@@ -299,16 +299,13 @@ ul{
     padding-left: 10px;
 }
 
-.div-gotop{
-    background-color:#141824;
-}
 
 .gotop img:hover{
     opacity: 1;
 }
 
 .button_style:hover{
-    background:url("./images/up-arrow.png");
+    background:url("/images/up-arrow.png");
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 4.8em;

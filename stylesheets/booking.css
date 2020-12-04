@@ -771,6 +771,57 @@ address a{
     }
 }
 @media only screen and (min-width: 768px) {
+    footer h1{
+        flex: 1;
+    }
+
+    footer img{
+        widows: 10%;
+    }
+    
+    .social_media h1{
+        font-size: .8em;
+    }
+
+    .social h1{
+        font-size: .8em;
+    }
+
+    address a{
+        font-size: .8em;
+    }
+    
+    footer{
+        flex-direction: column;
+    }
+
+    .email input{
+        border: 2px solid rgb(255, 255, 255);
+        background-color: black;
+    }
+    .email button{
+    height: max-content;
+    padding: 5px;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    }
+    .social_media{
+        text-align: center;
+    }
+    .social_media ul{
+        justify-content: space-evenly;
+        padding-right: 3em;
+        display: flex;
+    }
+    .button_email{
+        height: 5vh;
+        width: 50px;
+        background-color: white;
+        color: black;
+    }
     .avatar_image {
         float: none;
         border-radius: 0;
@@ -885,7 +936,9 @@ input[type="submit"]:hover {
     transform: translate(-50%, -50%);
     opacity: 90%;
 }
-
+.desc_h{
+    color: white;
+}
 .des_h2{
     color: white;
     margin-top: auto;
@@ -895,6 +948,11 @@ input[type="submit"]:hover {
 .des_h4{
     color: white;
     margin-left: 5%;
+}
+.des_h5{
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .des_p{
@@ -1124,6 +1182,18 @@ input[type=text], input[type=password] {
       height: 2%;
   }
   @media only screen and (min-width: 992px){
+    .nav-container{
+        background-color: rgb(218, 218, 218);
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+    }
+
+    .form_class{
+        margin-top: 5%;
+    }
+
     nav{
         display: flex;
         width: 80%;
@@ -1134,7 +1204,13 @@ input[type=text], input[type=password] {
         align-items: center;
         
     }
-    
+
+    .button_email{
+        height: 6vh;
+        width: 50px;
+        background-color: white;
+        color: black;
+    }
     .nav-links{
         display: flex;
         width: 70%;

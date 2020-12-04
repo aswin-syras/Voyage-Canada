@@ -19,6 +19,7 @@ footer{
     font-family: 'Poppins', sans-serif;
 }
 
+
 .view-more{
     display: flex;
     justify-content: center;
@@ -708,6 +709,13 @@ address a{
     border: 2px solid white;
     font-weight: bold;
     cursor: pointer;
+    width: 75px;
+}
+.button_email{
+    height: 4vh;
+    width: 50px;
+    background-color: white;
+    color: black;
 }
 
 @media screen and (max-width: 800px){
@@ -731,7 +739,6 @@ address a{
         font-size: .8em;
     }
     
-
     footer{
         flex-direction: column;
     }
@@ -740,13 +747,13 @@ address a{
         border: 2px solid rgb(255, 255, 255);
         background-color: black;
     }
-        .email button{
-        padding: 5px;
-        border: 2px solid white;
-        font-weight: bold;
-        cursor: pointer;
-        background-color: white;
-        color: black;
+    .email button{
+    padding: 5px;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    color: black;
     }
     .social_media{
         text-align: center;
@@ -755,6 +762,12 @@ address a{
         justify-content: space-evenly;
         padding-right: 3em;
         display: flex;
+    }
+    .button_email{
+        height: 5vh;
+        width: 50px;
+        background-color: white;
+        color: black;
     }
 }
 @media only screen and (min-width: 768px) {

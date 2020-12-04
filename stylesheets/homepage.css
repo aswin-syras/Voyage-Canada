@@ -1212,6 +1212,13 @@ iframe {
         padding-bottom: 2vh;	
         padding-top: 5vh;	
     }
+    .wildlife p{
+        display: none;
+    }
+    .wild-block{
+        width: 60%;
+        font-size: small;
+    }
   }
 
 
@@ -1227,7 +1234,7 @@ footer address {
   }
 
   .wildlife img{
-      width: 80%;
+      width: 90%;
       margin-left: 10%;
   }
   

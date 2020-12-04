@@ -188,11 +188,11 @@ ul{
 
 @media screen and (max-width: 855px) {
     .grid{
-        width: 50%;
+        width: 80%;
     }
     .sub-grid img{
         width: auto;
-        height: 130%;
+        height: 100%;
     }
     .sub-grid{
         height: 50vw;
@@ -210,25 +210,38 @@ ul{
 
 @media screen and (max-width: 800px) {
     .grid{
-        width: 50%;
+        width: 80%;
     }
     .sub-grid img{
         width: auto;
-        height: 130%;
+        height: 100%;
     }
     .sub-grid{
         height: 50vw;
     }
+    .img-grid{
+        height: 80%;
+        overflow: hidden;
+    }
 
-    #main-details h1{
+    .sub-grid p{
+        font-size: .5em;
+        padding: 1.5vw;
+    }
+
+    #main-details h2{
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 }
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 631px) {
+
+    .grid{
+        width: 50%;
+    }
     .sub-grid{
         height: 60vw;
     }

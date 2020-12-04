@@ -1110,3 +1110,46 @@ input[type=text], input[type=password] {
   select option{
       height: 2%;
   }
+  @media only screen and (min-width: 992px){
+    nav{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        min-height: 10vh;
+        padding: 1rem 0rem;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .nav-links{
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+    
+    }
+    
+    .nav-links a{
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1em;
+        white-space: nowrap;
+    }
+    
+    .nav-links  :hover{
+        color: rgb(89, 172, 107);
+        position: relative;
+        
+    }
+    ul{
+        list-style: none;
+    }
+    
+    .logo{
+        flex: 2;
+        font-family: 'Lobster', cursive;
+        font-size: 2vw;
+    }
+  }

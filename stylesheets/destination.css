@@ -21,7 +21,7 @@ html {
 
   }
 
-  .nav-container{
+.nav-container{
     background-color: rgb(218, 218, 218);
     width: 100%;
     position: fixed;
@@ -42,9 +42,8 @@ nav{
 
 .nav-links{
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-around;
-
 }
 
 .nav-links a{
@@ -53,21 +52,24 @@ nav{
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 1em;
-   
+    white-space: nowrap;
+    text-align: center;
 }
 
 .nav-links  :hover{
-    color: rgb(89, 172, 107);
-    
+    color: rgb(89, 172, 107);  
 }
+
+
+
 ul{
     list-style: none;
 }
 
-.logo{
+.logo h4 {
+    font-size: 4vh;
     flex: 2;
     font-family: 'Lobster', cursive;
-    font-size: 2em;
 }
 
 @media only screen and (max-width: 933px) {
@@ -318,7 +320,7 @@ ul{
 }
 
 .button_style:hover{
-    background:url("/images/up-arrow.png");
+    background:url(/images/up-arrow.png);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 4.8em;
@@ -475,9 +477,6 @@ address{
   }
 
 
-
-
-
 /*search*/
 #wrap {
     margin-left: 7vh;
@@ -485,7 +484,6 @@ address{
     display: inline-block;
     position: relative;
     height: 20px;
-    position: relative;
 }
 
 input[id="search"] {

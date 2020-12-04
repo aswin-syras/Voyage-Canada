@@ -79,6 +79,7 @@ ul{
 .logo{
     flex: 2;
     font-family: 'Lobster', cursive;
+    font-size: 4vh;
     
 }
 
@@ -933,7 +934,7 @@ input[type="text"]:focus {
     width: 5vh;
     color:rgb(0, 0, 0);
     float: right;
-    background: url('/images/search.png') center center no-repeat ;
+    background: url(/images/search.png) center center no-repeat ;
     background-size: 5vh;
     text-indent: -10000px;
     border: none;

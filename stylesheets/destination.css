@@ -320,7 +320,7 @@ ul{
 }
 
 .button_style:hover{
-    background:url(/images/up-arrow.png);
+    background:url('../images/up-arrow.png');
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 4.8em;
@@ -522,7 +522,7 @@ input[type="text"]:focus {
     width: 5vh;
     color:red;
     float: right;
-    background: url('/images/search.png') center center no-repeat ;
+    background: url('../images/search.png') center center no-repeat ;
     background-size: 5vh;
     text-indent: -10000px;
     border: none;

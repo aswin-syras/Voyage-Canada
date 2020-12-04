@@ -931,7 +931,7 @@ input[type="text"]:focus {
 #search_submit {
     height: 5vh;
     width: 5vh;
-    color:red;
+    color:rgb(0, 0, 0);
     float: right;
     background: url('/images/search.png') center center no-repeat ;
     background-size: 5vh;

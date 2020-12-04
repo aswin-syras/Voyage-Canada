@@ -791,10 +791,6 @@ address a{
         font-size: .8em;
     }
     
-    footer{
-        flex-direction: column;
-    }
-
     .email input{
         border: 2px solid rgb(255, 255, 255);
         background-color: black;

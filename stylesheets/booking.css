@@ -162,11 +162,7 @@ ul{
     margin-left: 10%;
     margin-bottom: 9%;
     -webkit-overflow-scrolling: touch;
-    
-    scroll-snap-points-x: repeat(300px);
-    scroll-snap-type: mandatory;
-    
- }
+  }
 
 .slides::-webkit-scrollbar {
     width: 10px;
@@ -319,7 +315,7 @@ ul{
     top: 80%;
     left: 50%;
     font-size: 5vh;
-    font-weight: 550;
+    font-weight:bolder;
     transform: translate(-50%, -50%);
     opacity: 90%;
 }
@@ -724,7 +720,7 @@ address a{
     }
 
     footer img{
-        widows: 10%;
+        widows: 10;
     }
     
     .social_media h1{
@@ -776,7 +772,7 @@ address a{
     }
 
     footer img{
-        widows: 10%;
+        widows: 10;
     }
     
     .social_media h1{
